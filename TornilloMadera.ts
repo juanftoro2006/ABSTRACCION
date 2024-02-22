@@ -7,7 +7,8 @@ class TornilloDeMadera{
     TipoDeEstriado:string;
     Largo:string;
     Calibre:number;
-    
+ 
+  //CONTRUCTOR  = es lo que va a requerir un objeto para ser instanciado   
     constructor(i: number, tp: string, te:string, l:string, c:number){
         this.Id = i
         this.TipoDeCabeza = tp;
@@ -16,6 +17,7 @@ class TornilloDeMadera{
         this.Calibre = c;
     
     }
+    
 // METODO   siempre es un verbo y en infinitivo
     unir():string{
         return "Se une la madera a otro trozo de madera";
